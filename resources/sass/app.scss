@@ -1,0 +1,41 @@
+@import url("https://rsms.me/inter/inter.css");
+
+@tailwind base;
+
+@tailwind components;
+
+/* purgecss start ignore */
+
+.container {
+    @apply w-full mx-auto;
+    max-width: 80rem;
+}
+
+.markdown h1 {
+    @apply text-4xl;
+}
+
+.markdown h2 {
+    @apply text-3xl;
+}
+
+.markdown h3 {
+    @apply text-2xl;
+}
+
+.markdown h4 {
+    @apply text-xl;
+}
+
+[v-cloak] {
+    @apply hidden;
+}
+
+@import "_dropzone";
+@import "_select2";
+@import "_datatables";
+@import "_forms";
+@import "_tables";
+
+/* purgecss end ignore */
+@tailwind utilities;

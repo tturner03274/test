@@ -1,0 +1,37 @@
+// results per page
+.dataTables_length {
+    @apply float-right mb-6;
+}
+.dataTables_length select {
+    @apply cursor-pointer p-2 rounded;
+}
+
+// search
+.dataTables_filter label > input {
+    @apply text-sm rounded p-2 ml-2;
+}
+
+// sortable th
+th.sorting {
+    @apply cursor-pointer;
+}
+
+.dataTables_info {
+    @apply float-left;
+}
+
+.dataTables_paginate {
+    @apply float-right;
+}
+
+.dataTables_paginate .paginate_button {
+    @apply bg-white border p-2 -mr-px cursor-pointer text-brand-blue;
+}
+
+.dataTables_paginate .paginate_button.current {
+    @apply text-brand-gray-400;
+}
+
+.dataTables_empty {
+    @apply p-3;
+}

@@ -1,0 +1,41 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.pw-input {
+    @apply block max-w-full bg-brand-gray-100 text-brand-blue border border-brand-gray-400 mb-6 rounded p-4 py-3 leading-tight;
+}
+
+/* Buttons */
+
+.pw-btn {
+    @apply inline-block cursor-pointer shadow rounded font-semibold px-3 py-2;
+}
+
+.pw-btn:disabled {
+    @apply opacity-50 cursor-not-allowed;
+}
+
+.pw-btn-lg {
+    @apply px-8 py-3 uppercase text-base;
+}
+
+.pw-btn-blue {
+    @apply bg-brand-blue text-white;
+}
+
+.pw-btn-yellow {
+    @apply bg-brand-blue text-white;
+}
+
+.not-valid {
+    @apply mb-3 p-2 text-sm rounded leading-none text-brand-blue bg-brand-yellow;
+}
+
+.not-valid-block {
+    @apply mb-3 p-2 text-sm rounded leading-tight bg-brand-gray-100 text-brand-blue border-t-4 border-brand-yellow;
+}

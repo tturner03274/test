@@ -1,0 +1,43 @@
+.dropzone {
+    @apply border border-brand-gray-400 bg-brand-gray-100 p-0 pb-12 #{!important};
+}
+
+.dropzone .dz-message {
+    @apply m-0 py-3 px-4 text-left text-sm font-normal text-gray-500 #{!important};
+}
+
+.dropzone .dz-preview {
+    @apply bg-white rounded-lg p-2;
+}
+
+.dropzone .dz-preview .dz-image {
+    @apply rounded-none #{!important};
+}
+
+.dropzone .dz-preview .dz-remove {
+    @apply text-xs p-1 #{!important};
+}
+
+.dropzone .dz-preview .dz-details {
+    @apply hidden #{!important};
+}
+
+.dropzone .dz-preview:hover .dz-image img {
+    filter: blur(0) #{!important};
+}
+
+.dropzone .dz-preview .dz-progress {
+    height: 10px #{!important};
+}
+
+.dropzone .dz-preview .dz-success-mark,
+.dropzone .dz-preview .dz-error-mark {
+    margin-left: -18px #{!important};
+    margin-top: -18px #{!important};
+}
+
+.dropzone .dz-preview .dz-success-mark svg,
+.dropzone .dz-preview .dz-error-mark svg {
+    width: 36px #{!important};
+    height: 36px #{!important};
+}
